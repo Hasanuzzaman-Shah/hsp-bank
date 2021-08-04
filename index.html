@@ -9,12 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg  top fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text" href="#">Home Lone</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text" href="#" >Student Savings</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    
+    </div>
+
+  
    
         <div id="login-area">
             <h1 class="text-center text">Welcome to HSP Bank LTD</h1>
     
-            <div class="submit-area">
+            <div class="submit-area col-12 col-sm-12 col-md-12 col-lg-12  col-xl-12">
                 <h4 class="text">Log in</h4>
                 <input type="text" class="form-control" placeholder="email">
                 <br>
@@ -26,9 +55,9 @@
             </div>
         </div>
     
-        <div id="transaction-area">
+        <div id="transaction-area" >
             <div class="row">
-                <div class="col-md-4 ">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4  col-xl-4 ">
                     <div class="deposit status">
                        <h5 >Deposit</h5>
                         <h2>$ <span id="currentDeposit">00</span> </h2>
@@ -36,14 +65,14 @@
     
                    
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4  col-xl-4 ">
                     <div class="withdraw status">
                         <h5 >Withdraw</h5>
                         <h2>$ <span id="currentWithdraw">00</span></h2>
                     </div>
                     
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4  col-xl-4 ">
                     <div class="balance status">
                         <h5>Balance</h5>
                         <h2>$ <span id="currentBalance">1240</span> </h2>
@@ -56,7 +85,7 @@
             </div>
     
             <div class="row">
-                <div class="col-md-6" >
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6  col-xl-6" >
                 
                    <div class="submit-area">
                     <h4 class="text">Deposit</h4>
@@ -66,7 +95,7 @@
                    </div>
                 </div>
     
-                <div class="col-md-6">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6  col-xl-6">
                     <div class="submit-area">
                         <h4 class="text">Withdraw</h4>
                     <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount you want to withdraw">
@@ -150,7 +179,14 @@
         }
 
     </script>
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <p class="footer"> <span class="orange-highlight">Pobon Hasan </span> <span class="tomato-highlight">2021 
+         </span>  |  <span class="green-highlight">Project Demo</span> </p>
+    </footer>
 </body>
 </html>
